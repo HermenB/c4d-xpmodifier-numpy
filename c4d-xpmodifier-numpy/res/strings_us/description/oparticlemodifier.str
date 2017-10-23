@@ -1,0 +1,7 @@
+STRINGTABLE Oparticlemodifier
+{
+	Oparticlemodifier			"Particle Modifier";
+
+	OPARTICLEMODIFIER_OPENEDITOR 		"Open Python Editor";
+	OPARTICLEMODIFIER_CODE				"Code";
+}

@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0A6683339F470FF41010000 /* libcinema.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A6683339F470FF41000000 /* libcinema.framework.a */; };
+		C00381D21F6FDBA000B2C2BC /* xpmodify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C00381D11F6FDBA000B2C2BC /* xpmodify.cpp */; };
+		C00381D51F6FDC9600B2C2BC /* lib_xp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C00381D31F6FDC9600B2C2BC /* lib_xp.cpp */; };
+		C00381D61F6FDC9600B2C2BC /* lib_xp.h in Headers */ = {isa = PBXBuildFile; fileRef = C00381D41F6FDC9600B2C2BC /* lib_xp.h */; };
+		C00381DE1F716D8900B2C2BC /* Python.osx in Frameworks */ = {isa = PBXBuildFile; fileRef = C00381DD1F716D8900B2C2BC /* Python.osx */; };
+		C00381E31F72CB9D00B2C2BC /* conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C00381E11F72CB9D00B2C2BC /* conversion.cpp */; };
+		C00381E41F72CB9D00B2C2BC /* conversion.h in Headers */ = {isa = PBXBuildFile; fileRef = C00381E21F72CB9D00B2C2BC /* conversion.h */; };
+		C053F8A31F9D217100EA6B5B /* particlemodify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C053F8A11F9D217100EA6B5B /* particlemodify.cpp */; };
+		C09893A61D5770A60065745A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C09893A31D5770A60065745A /* main.cpp */; };
+		C09893A71D5770A60065745A /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = C09893A41D5770A60065745A /* main.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28945ECC17E25C1A009BE29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3F470FF417B0100;
+			remoteInfo = "cinema.framework static library";
+		};
+		A0A6683339F470FF41040000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3F470FF417B0000;
+			remoteInfo = cinema.framework;
+		};
+		A0A6683339F470FF41050000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C5CDEA3F470FF41000000;
+			remoteInfo = cinema.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A08C5CDEA3A66833397B0000 /* xpmodifier.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = xpmodifier.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A668333900000000000000 /* debugbase.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = debugbase.xcconfig; path = ../../frameworks/settings/debugbase.xcconfig; sourceTree = SOURCE_ROOT; };
+		A0A668333900000000050000 /* releasebase.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = releasebase.xcconfig; path = ../../frameworks/settings/releasebase.xcconfig; sourceTree = SOURCE_ROOT; };
+		A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cinema.framework.xcodeproj; path = ../../frameworks/cinema.framework/project/cinema.framework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C00381D11F6FDBA000B2C2BC /* xpmodify.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xpmodify.cpp; path = source/xpmodify.cpp; sourceTree = SOURCE_ROOT; };
+		C00381D31F6FDC9600B2C2BC /* lib_xp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lib_xp.cpp; path = source/lib_xp.cpp; sourceTree = SOURCE_ROOT; };
+		C00381D41F6FDC9600B2C2BC /* lib_xp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lib_xp.h; path = source/lib_xp.h; sourceTree = SOURCE_ROOT; };
+		C00381DD1F716D8900B2C2BC /* Python.osx */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Python.osx; path = "/Applications/MAXON/CINEMA 4D R18/plugins/myplugins/../../resource/modules/python/Python.osx.framework/Python.osx"; sourceTree = "<absolute>"; };
+		C00381E11F72CB9D00B2C2BC /* conversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = conversion.cpp; path = source/conversion.cpp; sourceTree = SOURCE_ROOT; };
+		C00381E21F72CB9D00B2C2BC /* conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = conversion.h; path = source/conversion.h; sourceTree = SOURCE_ROOT; };
+		C053F8A11F9D217100EA6B5B /* particlemodify.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = particlemodify.cpp; path = source/particlemodify.cpp; sourceTree = SOURCE_ROOT; };
+		C09893A31D5770A60065745A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
+		C09893A41D5770A60065745A /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = source/main.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A6683339000000000F0000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00381DE1F716D8900B2C2BC /* Python.osx in Frameworks */,
+				A0A6683339F470FF41010000 /* libcinema.framework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0A668333900000000140000 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		A0A668333900000000190000 /* configurations */ = {
+			isa = PBXGroup;
+			children = (
+				A0A668333900000000000000 /* debugbase.xcconfig */,
+				A0A668333900000000050000 /* releasebase.xcconfig */,
+			);
+			name = configurations;
+			sourceTree = "<group>";
+		};
+		A0A6683339000000001E0000 = {
+			isa = PBXGroup;
+			children = (
+				A0A668333900000000190000 /* configurations */,
+				A0A668333900000000140000 /* libs */,
+				A0A668333900000000230000 /* products */,
+				A0A6683339CA90681B000000 /* source */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A668333900000000230000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A08C5CDEA3A66833397B0000 /* xpmodifier.dylib */,
+				C00381DD1F716D8900B2C2BC /* Python.osx */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+		A0A6683339CA90681B000000 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				C00381D41F6FDC9600B2C2BC /* lib_xp.h */,
+				C00381D31F6FDC9600B2C2BC /* lib_xp.cpp */,
+				C09893A41D5770A60065745A /* main.h */,
+				C09893A31D5770A60065745A /* main.cpp */,
+				C00381D11F6FDBA000B2C2BC /* xpmodify.cpp */,
+				C053F8A11F9D217100EA6B5B /* particlemodify.cpp */,
+				C00381E11F72CB9D00B2C2BC /* conversion.cpp */,
+				C00381E21F72CB9D00B2C2BC /* conversion.h */,
+			);
+			name = source;
+			path = ../source;
+			sourceTree = SOURCE_ROOT;
+		};
+		A0A6683339F470FF41280000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A6683339F470FF41000000 /* libcinema.framework.a */,
+				28945ECD17E25C1A009BE29F /* libcinema.framework_static.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0A6683339000000002D0000 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00381D61F6FDC9600B2C2BC /* lib_xp.h in Headers */,
+				C00381E41F72CB9D00B2C2BC /* conversion.h in Headers */,
+				C09893A71D5770A60065745A /* main.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A08C5CDEA3A6683339000000 /* xpmodifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A668333900000000460000 /* Build configuration list for PBXNativeTarget "xpmodifier" */;
+			buildPhases = (
+				A0A668333900000000320000 /* Sources */,
+				A0A6683339000000000F0000 /* Frameworks */,
+				A0A6683339000000002D0000 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0A6683339F470FF41370000 /* PBXTargetDependency */,
+			);
+			name = xpmodifier;
+			productName = cinema4dsdk;
+			productReference = A08C5CDEA3A66833397B0000 /* xpmodifier.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A6683339000000003C0000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "MAXON Computer GmbH";
+			};
+			buildConfigurationList = A0A668333900000000410000 /* Build configuration list for PBXProject "xpmodifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0A6683339000000001E0000;
+			productRefGroup = A0A668333900000000230000 /* products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A0A6683339F470FF41280000 /* products */;
+					ProjectRef = A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A08C5CDEA3A6683339000000 /* xpmodifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		28945ECD17E25C1A009BE29F /* libcinema.framework_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcinema.framework_static.a;
+			remoteRef = 28945ECC17E25C1A009BE29F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A0A6683339F470FF41000000 /* libcinema.framework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcinema.framework.a;
+			remoteRef = A0A6683339F470FF41040000 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A668333900000000320000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00381D51F6FDC9600B2C2BC /* lib_xp.cpp in Sources */,
+				C09893A61D5770A60065745A /* main.cpp in Sources */,
+				C00381D21F6FDBA000B2C2BC /* xpmodify.cpp in Sources */,
+				C00381E31F72CB9D00B2C2BC /* conversion.cpp in Sources */,
+				C053F8A31F9D217100EA6B5B /* particlemodify.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0A6683339F470FF41370000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cinema.framework;
+			targetProxy = A0A6683339F470FF41050000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0A6683339000000004B0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A668333900000000000000 /* debugbase.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = "$(MAXON_ROOTDIR)resource/modules/python/Python.osx.framework/include";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				MAXON_ROOTDIR = ../../;
+				ONLY_ACTIVE_ARCH = YES;
+				USER_HEADER_SEARCH_PATHS = "./source ./res ./res/description $(MAXON_ROOTDIR)frameworks/cinema.framework/source/** $(inherited)";
+			};
+			name = Debug;
+		};
+		A0A668333900000000500000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A668333900000000050000 /* releasebase.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				HEADER_SEARCH_PATHS = "$(MAXON_ROOTDIR)resource/modules/python/Python.osx.framework/include";
+				MAXON_ROOTDIR = ../../;
+				USER_HEADER_SEARCH_PATHS = "./source ./res ./res/description $(MAXON_ROOTDIR)frameworks/cinema.framework/source/** $(inherited)";
+			};
+			name = Release;
+		};
+		A0A6683339000000005A0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_X86_VECTOR_INSTRUCTIONS = sse4.2;
+				DEPLOYMENT_LOCATION = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/anique/c++/include/vectorclass";
+				INSTALL_PATH = /.;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../resource/modules/python/Python.osx.framework",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "./source ./res ./res/description $(MAXON_ROOTDIR)frameworks/cinema.framework/source/** $(inherited) $(MAXON_ROOTDIR)resource/modules/python/Python.osx.framework/include/python2.7 /Users/anique/Library/Preferences/MAXON/\"CINEMA 4D R18_50E4FAD5\"/library/python/packages/osx/numpy/core/include";
+			};
+			name = Debug;
+		};
+		A0A6683339000000005F0000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_X86_VECTOR_INSTRUCTIONS = sse4.2;
+				DEPLOYMENT_LOCATION = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/anique/c++/include/vectorclass";
+				INSTALL_PATH = /.;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../resource/modules/python/Python.osx.framework",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "./source ./res ./res/description $(MAXON_ROOTDIR)frameworks/cinema.framework/source/** $(inherited) $(MAXON_ROOTDIR)resource/modules/python/Python.osx.framework/include/python2.7 /Users/anique/Library/Preferences/MAXON/\"CINEMA 4D R18_50E4FAD5\"/library/python/packages/osx/numpy/core/include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A668333900000000410000 /* Build configuration list for PBXProject "xpmodifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A6683339000000004B0000 /* Debug */,
+				A0A668333900000000500000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0A668333900000000460000 /* Build configuration list for PBXNativeTarget "xpmodifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A6683339000000005A0000 /* Debug */,
+				A0A6683339000000005F0000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0A6683339000000003C0000 /* Project object */;
+}

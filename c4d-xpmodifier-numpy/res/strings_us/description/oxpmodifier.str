@@ -1,0 +1,32 @@
+STRINGTABLE Oxpmodifier
+{
+	Oxpmodifier			       "XP Modifier";
+
+	OXPMODIFIER_OPENEDITOR     "Open Python Editor";
+	OXPMODIFIER_CODE           "Code";
+    
+    OXPMODIFIER_POSITION        "Position";
+    OXPMODIFIER_VELOCITY        "Velocity";
+    OXPMODIFIER_TIME            "Time";
+    OXPMODIFIER_LIFE            "Life";
+    OXPMODIFIER_COLOR           "Color";
+    OXPMODIFIER_RADIUS          "Radius";
+    OXPMODIFIER_MASS            "Mass";
+    OXPMODIFIER_SPEED           "Speed";
+    OXPMODIFIER_GROUPID         "GroupID";
+    OXPMODIFIER_ID              "ID";
+    OXPMODIFIER_DENSITY         "Density";
+
+    OXPMODIFIER_DISPLAY         "Display";
+    OXPMODIFIER_MATRIX          "Matrix";
+    OXPMODIFIER_ROTATION        "Rotation";
+    OXPMODIFIER_DISTANCE        "Distance";
+    OXPMODIFIER_SPIN            "Spin";
+    OXPMODIFIER_TEMPERATURE     "Temperature";
+    OXPMODIFIER_FUEL            "Fuel";
+    OXPMODIFIER_FIRE            "Fire";
+    OXPMODIFIER_SMOKE           "Smoke";
+    OXPMODIFIER_EXPANSION       "Expansion";
+    OXPMODIFIER_UVW             "UVW";
+    
+}
