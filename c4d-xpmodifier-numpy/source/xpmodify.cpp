@@ -61,9 +61,6 @@ Bool XPModifier::Init(GeListNode *node)
     s += "import numpy as np\n\n";
     s += "# available variables:\n";
     s += "# op, doc, frame, dt, m(=op.GetMg())\n\n";
-    s += "def setParticleCount():\n";
-    s += "    count = 1000\n";
-    s += "    return count\n\n";
     s += "X = Position\n";
     s += "V = Velocity\n";
     s += "V[:,2] -= X[:,2]";
